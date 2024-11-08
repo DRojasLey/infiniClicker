@@ -1,0 +1,63 @@
+body {
+    background-color: #1d1d1d;
+}
+
+.main-title {
+    font-size: 140px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.block-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.moth {
+    width: 105px;
+    height: auto;
+    margin: 100px;
+}
+
+
+.moths-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-light {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.moths-right {
+
+}
+
+.brother-moth {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.brother-moth2 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.score-cont {
+    position: absolute;
+    bottom: 20px;
+    left: 49%;
+    right: auto;
+    color: aliceblue;
+    font-size: 50px;
+}
